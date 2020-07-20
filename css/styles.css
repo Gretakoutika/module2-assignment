@@ -13,13 +13,14 @@ h1
 	background-color: #FFC300;
 	padding-top: 40px;
 }
-.box{
+.subbox{
 	
 	margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
 	padding: 0px;
 	border:3px solid black;
-	width:300px;
-	height:300px;
+	height:250px;
 	box-sizing:border-box;
 	overflow: auto; 
 	background-color: #FFC300;
@@ -29,6 +30,7 @@ h1
 #html{
 	font-family: "Comic Sans M.S",cursive;
 	margin: 0px;
+  margin-left:40%; 
 	box-sizing:border-box;
 	overflow: auto; 
 	font-size: 125%;
@@ -41,6 +43,15 @@ h1
 	text-align: center;
 
 }
+.box {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
 #css
 {	font-family: "Comic Sans M.S",cursive;
 	padding: 5px;
@@ -53,7 +64,8 @@ h1
 	width: 60%;
 	border: 1px solid black;
 	box-sizing:border-box;
-	overflow: auto; 
+	overflow: auto;   
+  margin-left: 40%;
 }
 
 #js
@@ -61,6 +73,7 @@ h1
 	padding: 5px;
 	font-size: 125%;
 	text-align: center;
+  margin-left: 40%;
 	margin: 0px;
 	right: 0px;
 	float:right;
