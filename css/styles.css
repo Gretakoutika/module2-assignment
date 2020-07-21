@@ -6,32 +6,35 @@ h1
 {
 	font-family: "Comic Sans M.S",cursive;
 	text-align:center;
-  
+
 }
 #content{
 	font-family: "Comic Sans M.S",cursive;
 	padding:40px 20px 10px 20px;
 	background-color: #FFC300;
   text-align: left;
-	}
+  margin:1px;
+    }
 .subbox{
 	
 	margin: 0px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: -1px;
 	padding: 0px;
-	border:3px solid black;
-	height:250px;
-	box-sizing:border-box;
+	border:1px solid black;
+	height:200px;
+	
 	overflow: auto; 
 	background-color: #FFC300;
-	border-collapse: collapse;
+  position:relative;
 
 }
 #html{
 	font-family: "Comic Sans M.S",cursive;
 	margin: 0px;
-  margin-left:40%; 
+  margin-left:40%;
+  border-right: -1px;
+  position: relative; 
 	box-sizing:border-box;
 	color: white;
 	font-size: 125%;
@@ -42,7 +45,6 @@ h1
 	float:right;
   margin-top: -10px;
   padding-top: 10px;
-  
 	background-color: #C70039;
 	text-align: center;
 
@@ -58,6 +60,7 @@ h1
 {	font-family: "Comic Sans M.S",cursive;
  	padding: 5px;
   color: white;
+  position: relative;
 	font-size: 125%;
 	text-align: center;
 	margin: 0px;
@@ -91,6 +94,7 @@ h1
 	overflow: auto; 
   margin-top: -10px;
   padding-top: 10px;
+  position:relative;
  
 }
 @media (min-width: 992px) {
