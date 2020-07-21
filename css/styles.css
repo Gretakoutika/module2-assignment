@@ -10,7 +10,7 @@ h1
 }
 #content{
 	font-family: "Comic Sans M.S",cursive;
-	padding:40px 10px 0px 20px;
+	padding:40px 20px 0px 20px;
 	background-color: #FFC300;
   text-align: left;
      }
@@ -30,23 +30,24 @@ h1
 }
 #html{
 	font-family: "Comic Sans M.S",cursive;
-	margin: 0px;
-  margin-left:40%;
-  margin-right:-0.5px;  
-  border-right:-1px;
-  position: relative; 
-	box-sizing:border-box;
-	color: white;
-	font-size: 125%;
-	width: 41%;
-	padding: 5px;
-	border: 1px solid black;
-	right: 0px;
-	float:right;
+  padding: 5px;
+  color: white;
+  position: relative;
+  font-size: 125%;
+  text-align: center;
+  margin: 0px;
+  right: 0px;
+  float:right;
+  background-color: #C70039;
+  width: 41%;
+  border: 1px solid black;
+  box-sizing:border-box;
+  overflow: auto;   
   margin-top: -10px;
   padding-top: 10px;
-	background-color: #C70039;
-	text-align: center;
+  margin-right:-0.5px; 
+  margin-left: 40%;
+  
 
 }
 .box {
