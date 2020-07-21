@@ -11,7 +11,7 @@ h1
 	font-family: "Comic Sans M.S",cursive;
 	padding:40px 20px 10px 20px;
 	background-color: #FFC300;
-  text-align: justify;
+  text-align: left;
 	}
 .subbox{
 	
@@ -32,9 +32,9 @@ h1
 	margin: 0px;
   margin-left:40%; 
 	box-sizing:border-box;
-	
+	color: white;
 	font-size: 125%;
-	width: 60%;
+	width: 41%;
 	padding: 5px;
 	border: 1px solid black;
 	right: 0px;
@@ -50,21 +50,20 @@ h1
   border: none;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
 #css
 {	font-family: "Comic Sans M.S",cursive;
  	padding: 5px;
+  color: white;
 	font-size: 125%;
 	text-align: center;
 	margin: 0px;
 	right: 0px;
 	float:right;
 	background-color:#C2296E ;
-	width: 60%;
+	width: 41%;
 	border: 1px solid black;
 	box-sizing:border-box;
 	overflow: auto;   
@@ -77,6 +76,7 @@ h1
 #js
 {	font-family: "Comic Sans M.S",cursive;
   padding: 5px;
+  color: white;
 	font-size: 125%;
 	text-align: center;
   margin-left: 40%;
@@ -84,7 +84,7 @@ h1
 	right: 0px;
 	float:right;
 	background-color:#FF5733  ;
-	width: 60%;
+	width: 41%;
 	border: 1px solid black;
 	box-sizing:border-box;
 	overflow: auto; 
