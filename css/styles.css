@@ -8,6 +8,11 @@ h1
 	text-align:center;
 
 }
+body{
+	
+	background-color: grey;
+}
+
 #content{
 	font-family: "Comic Sans M.S",cursive;
 	padding:40px 10px 0px 10px;
@@ -40,7 +45,8 @@ h1
   float:right;
   background-color: #C70039;
   width: 41%;
-  border: 1px solid black;
+  border-left:  1px solid black;
+  border-bottom:   1px solid black;
   box-sizing:border-box;
   overflow: auto;   
   margin-top: -10px;
@@ -70,7 +76,8 @@ h1
 	float:right;
 	background-color:#C2296E ;
 	width: 41%;
-	border: 1px solid black;
+	border-left:  1px solid black;
+  border-bottom:   1px solid black;
 	box-sizing:border-box;
 	overflow: auto;   
   	margin-top: -10px;
@@ -93,7 +100,8 @@ h1
 	float:right;
 	background-color:#FF5733  ;
 	width: 41%;
-	border: 1px solid black;
+	border-left:  1px solid black;
+  border-bottom:   1px solid black;
 	box-sizing:border-box;
 	overflow: auto; 
   	margin-top: -10px;
